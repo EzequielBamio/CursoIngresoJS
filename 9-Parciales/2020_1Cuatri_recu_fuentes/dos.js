@@ -1,4 +1,6 @@
 function mostrar()
 {
-  alert("dos");
+
+
+
 }
