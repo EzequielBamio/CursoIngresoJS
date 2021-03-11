@@ -1,6 +1,10 @@
 /*
 Al presionar el botón pedir  números  hasta que el usuario quiera,
-sumar los que son positivos y multiplicar los negativos.*/
+sumar los que son positivos y multiplicar los negativos.
+
+	Ezequiel Bamio
+
+*/
 function mostrar()
 {
 	var contador;
@@ -8,7 +12,6 @@ function mostrar()
 	var sumaPositivos;
 	var multiplicacionNegativos;
 	var numeroIngresado;
-	var respuestaUsuario;
 	contador=0;
 	sumaPositivos=0;
 	multiplicacionNegativos=1;
@@ -21,8 +24,6 @@ function mostrar()
 		numeroIngresado = prompt("Ingrese un numero");
 		numeroIngresado = parseInt(numeroIngresado);
 
-		respuesta = prompt("Quiere seguir ingresando numeros? si o no");
-
 		if(numeroIngresado > 0)
 		{
 			sumaPositivos = sumaPositivos + numeroIngresado;
@@ -32,6 +33,8 @@ function mostrar()
 		}
 
 		contador = contador + 1;
+
+		respuesta = prompt("Quiere seguir ingresando numeros? si o no");
 
 	}
 

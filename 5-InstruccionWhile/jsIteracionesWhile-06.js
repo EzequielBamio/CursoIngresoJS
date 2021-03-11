@@ -1,3 +1,9 @@
+/*
+Al presionar el botón pedir 5 números e informar la suma acumulada y el promedio.
+
+	Ezequiel Bamio
+
+*/
 function mostrar()
 {
 	var contador;

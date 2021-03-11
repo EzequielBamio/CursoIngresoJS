@@ -16,7 +16,6 @@ function Sumar ()
     precio2 = document.getElementById("txtIdPrecioDos").value;
     precio3 = document.getElementById("txtIdPrecioTres").value;
 
-
     precio1 = parseInt(precio1);
     precio2 = parseInt(precio2);
     precio3 = parseInt(precio3);

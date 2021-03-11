@@ -27,8 +27,6 @@ function Rectangulo ()
 
     alert("La cantidad de alambre que se debe comprar es de: " + cantidadAlambre);
 
-
-
 }
 function Circulo () 
 {
@@ -36,7 +34,6 @@ function Circulo ()
     let perimetro;
     let cantidadAlambre;
 
-    
     //Entrada
     radio = document.getElementById("txtIdRadio").value; // Toma los datos de la caja de texto y lo guarda en la variable
     radio = parseInt(radio)
@@ -47,9 +44,6 @@ function Circulo ()
 
     //Salida
     alert("La cantidad de alambre que se debe comprar es de: " + cantidadAlambre.toFixed(2));
-
-
-
 	
 }
 function Materiales () 
@@ -69,7 +63,6 @@ function Materiales ()
     area = largo * ancho;
     cemento = area * 2;
     cal = area * 3;
-
 
     alert("Para un contrapiso de " + area +"m2 " + "Se necesitan " + cemento + " bolsas de cemento y " + cal + " bolsas de cal");
 	

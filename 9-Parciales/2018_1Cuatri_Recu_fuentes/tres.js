@@ -1,3 +1,11 @@
+/*
+Bienvenidos.
+Pedir por prompt el precio y el porcentaje de descuento, mostrar el precio final con descuento por id.
+
+    Ezequiel Bamio
+
+*/
+
 function mostrar()
 {
     let precio;

@@ -1,3 +1,11 @@
+/*
+Bienvenidos.
+mostrar * en un solo alert * el mensaje "usted es xxxxx y vive en la localidad de xxxxxxxx".
+
+  Ezequiel Bamio
+
+*/
+
 function mostrar()
 {
 let nombre;

@@ -21,8 +21,8 @@ E: 10 Lamparitas con descuento es > a 120 ? +10% = 192.5
 
 .) 1 o 2 lamparitas = 35 | 70
                             
- 
-                                EZEQUIEL BAMIO
+    Ezequiel Bamio
+                                
 */
 function CalcularPrecio () 
 {
@@ -30,121 +30,6 @@ function CalcularPrecio ()
     let marca;
     let totalPrecioLampara;
     let porcentaje;
-    let descuento;
-    let precioFinal;
-    let ingresosBrutos;
-    
-
-    //TOMAR EL VALOR POR ID
-    cantidadLamparas = document.getElementById("txtIdCantidad").value;
-    marca = document.getElementById("Marca").value;
-    
-    //Calcular el precio de las X cantidad de lamparas
-    totalPrecioLampara = cantidadLamparas * 35;
-
-    //PARSEO
-    cantidadLamparas = parseInt(cantidadLamparas);
-    totalPrecioLampara = parseFloat(totalPrecioLampara);
-
-
-    switch(cantidadLamparas)
-    {
-        case 5:
-            if(marca == "ArgentinaLuz")
-            {
-            porcentaje = 0.6;
-            }else
-            {
-            porcentaje = 0.7; 
-            }
-            break;
-        case 4:
-            if(marca == "ArgentinaLuz")
-                {
-                    porcentaje = 0.75;
-                }else
-                {
-                    if(marca == "FelipeLamparas")
-                    {
-                        porcentaje = 0.75;
-                    }else
-                    {
-                        porcentaje = 0.8;
-                    }
-            break;
-    }
-
-
-
-    if(cantidadLamparas > 5)
-    {
-        porcentaje = 0.5;
-    }else
-    {
-        if(cantidadLamparas == 5)
-        {
-            if(marca == "ArgentinaLuz")
-            {
-                porcentaje = 0.6;
-            }else
-            {
-                porcentaje = 0.7; 
-            }
-        }else
-        {
-            if(cantidadLamparas == 4)
-            {
-                
-                }
-            }else
-            {
-                if(cantidadLamparas == 3)
-                {
-                    if(marca == "ArgentinaLuz")
-                    {
-                        porcentaje = 0.85;
-                    }else
-                    {
-                        if(marca == "FelipeLamparas")
-                        {
-                            porcentaje = 0.9;
-                        }else
-                        {
-                            porcentaje = 0.95;
-                        }
-                    }
-                }else
-                {
-                    porcentaje = 0; 
-                }
-            }
-        }
-    } 
-
-    precioFinal = totalPrecioLampara * porcentaje;
-
-       if(precioFinal > 119)
-        {
-            ingresosBrutos = precioFinal + (precioFinal * 0.1);
-            precioFinal = ingresosBrutos;
-            alert("IIBB Usted pago: $" + ingresosBrutos);
-        }
-        
-            document.getElementById("txtIdprecioDescuento").value = precioFinal; 
-
-
-        
-}
-
-
-
-/*function CalcularPrecio () 
-{
-    let cantidadLamparas;
-    let marca;
-    let totalPrecioLampara;
-    let porcentaje;
-    let descuento;
     let precioFinal;
     let ingresosBrutos;
     
@@ -231,4 +116,4 @@ function CalcularPrecio ()
 
 
         
-}*/
+}

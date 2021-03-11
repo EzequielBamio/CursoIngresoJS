@@ -6,15 +6,13 @@ function mostrar()
 	var sexoIngresado;
 	sexoIngresado = prompt("ingrese f ó m .");
 
-	sexoIngresado = sexoIngresado.toLowerCase();
+	sexoIngresado = sexoIngresado.toLowerCase(); //Convierte lo ingresado a minuscula
 
 
 	while(sexoIngresado != "f" && sexoIngresado != "m")
 	{
 		sexoIngresado = prompt("Ingreso no es f ó m, vuelve a intentarlo.");
 	}
-
-
 
 	txtIdSexo.value=sexoIngresado;
 }//FIN DE LA FUNCIÓN

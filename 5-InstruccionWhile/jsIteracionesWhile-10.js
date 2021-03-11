@@ -59,7 +59,7 @@ function mostrar()
 		numeroIngresado = prompt("Ingrese un numero");
 		numeroIngresado = parseInt(numeroIngresado);
 
-		while(isNaN(numeroIngresado))
+		while(isNaN(numeroIngresado) == true)
 		{
 			numeroIngresado = prompt("ERROR: Reingrese un numero");
 		}

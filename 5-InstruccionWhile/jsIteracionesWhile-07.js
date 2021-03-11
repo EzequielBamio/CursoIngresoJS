@@ -18,9 +18,10 @@ function mostrar()
 	{
 		numUsuario = prompt("Ingrese un numero");
 		numUsuario = parseInt(numUsuario);
-		respuesta = prompt("Quiere seguir ingresando numeros? Si o No");
 		acumulador = acumulador + numUsuario;
 		contador = contador + 1;
+
+		respuesta = prompt("Quiere seguir ingresando numeros? Si o No");
 	}
 
 	txtIdSuma.value=acumulador;

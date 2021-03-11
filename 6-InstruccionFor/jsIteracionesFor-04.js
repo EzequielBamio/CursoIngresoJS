@@ -1,7 +1,10 @@
+/*
+al presionar el botón repetir hasta que utilizamos 'BREAK'.
+
+	Ezequiel Bamio
+
+*/
 function mostrar()
 {
-	alert("ok");
-
-
 
 }//FIN DE LA FUNCIÓN

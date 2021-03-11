@@ -6,7 +6,7 @@ function mostrar()
 {
 	let numeroRamdon;
 
-	numeroRamdon = Math.floor(Math.random() * 10) + 1;
+	numeroRamdon = Math.floor(Math.random() * 10) + 1; 
 
 	alert(numeroRamdon);
 

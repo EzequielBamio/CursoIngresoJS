@@ -27,7 +27,7 @@ function mostrar()
 	var menorPares;
 	var respuesta;
 	//iniciar variables
-	banderaDelPrimero="es el primero";
+	banderaDelPrimero = false;
 	banderaPares = false;
 	banderaMayorNegativo = false;
 	respuesta='si';
@@ -39,15 +39,15 @@ function mostrar()
 		numeroIngresado = parseInt(numeroIngresado);
 
 		//Numero maximo
-		if(banderaDelPrimero == "es el primero" || numeroIngresado > numeroMaximo)
+		if(banderaDelPrimero == false || numeroIngresado > numeroMaximo)
 		{
 			numeroMaximo = numeroIngresado;
 		}
 		//Numero minimo
-		if(banderaDelPrimero == "es el primero" || numeroIngresado < numeroMinimo)
+		if(banderaDelPrimero == false || numeroIngresado < numeroMinimo)
 		{
 			numeroMinimo = numeroIngresado;
-			banderaDelPrimero = "no es el primero";
+			banderaDelPrimero = true;
 		}
 		
 		//Mayor negativo
@@ -75,7 +75,7 @@ function mostrar()
 	//FIN WHILE
 
 	//Si el usuario no ingresa numeros Pares, sino se muestra el menor de los pares.
-	if(menorPares == undefined)
+	if(banderaPares == false)
 	{
 		alert("No ingreso numeros Pares");
 	}else
@@ -84,7 +84,7 @@ function mostrar()
 	}
 
 	//Si el usuario no ingresa numeros negativos, sino se muestra el maximo de los negativos.
-	if(numeroMaximoNegativo == undefined)
+	if(numeroMaximoNegativo == false)
 	{
 		alert("No ingreso numeros negativos");
 	}else

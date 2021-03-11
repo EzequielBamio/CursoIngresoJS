@@ -1,3 +1,6 @@
+//Al seleccionar un destino informar si hace FRIO o CALOR en ese destino
+
+//      Ezequiel Bamio
 function mostrar()
 {
 	let destinoIngresado;
@@ -16,7 +19,3 @@ function mostrar()
 	}
 
 }//FIN DE LA FUNCIÓN
-
-//Al seleccionar un destino informar si hace FRIO o CALOR en ese destino
-
-//      Ezequiel Bamio
