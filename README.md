@@ -1,6 +1,6 @@
 # **CursoIngresoJS**
 -----
-Curso de ingreso con JavaScript
+Curso de ingreso con JavaScript - terminado
 
 ejercitación y TP para rendir el examen de ingreso 
 # **UTNFRA**
